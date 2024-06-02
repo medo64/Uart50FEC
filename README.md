@@ -16,10 +16,10 @@ expansion card.
 
 | # | Ref | Description                     |
 |--:|:---:|---------------------------------|
-| 1 | RXD | Receive (5V TTL)                |
-| 2 | GND | Ground connection               |
+| 1 | GND | Ground connection               |
+| 2 | RXD | Receive (5V TTL)                |
 | 3 | TXD | Transmit (5V TTL)               |
-| 4 | 5V  | 5V 500mA output                 |
+| 4 | 5V  | 5V 500mA output (typical)       |
 
 Using 22 AWG wire 0.25 mm² is recommended.
 
