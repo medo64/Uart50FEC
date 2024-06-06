@@ -1,4 +1,6 @@
-### Uart50FEC Parts
+### Uart50FEC
+
+#### Parts
 
 |  # | Part                                              | RefDes  | Preferred Part Number       |
 |---:|---------------------------------------------------|---------|-----------------------------|
@@ -14,16 +16,21 @@
 |  3 | R 1K 0.125W (0805)                                | R1-R3   | RMCF0805FT1K00CT-ND         |
 |  1 | R 5.1K 0.125W (0805)                              | R4      | RMCF0805FT5K10CT-ND         |
 |  1 | R 10K 0.125W (0805)                               | R5      | RMCF0805FT10K0CT-ND         |
+|  1 | R 68K 0.125W (0805)                               | R6      | RMCF0805FT68K0CT-ND         |
 |  1 | U Transciever Uart [FT232R] (SSOP-28)             | U1      | 768-FT232RNL-TUBE-ND        |
-|  1 | U LoadSwitch 500mA [MIC2005A-2] (SOT23-5)         | U2      | 576-3464-1-ND               |
+|  1 | U LoadSwitch Adjustable [AP22652W6-7] (SOT23-6)   | U2      | 31-AP22652W6-7CT-ND         |
 |  2 | H Screw M2x3mm                                    | -       | -                           |
 
 
-#### Board Size
+#### Specifications
 
-|       |      Dimensions | Area    | Thickness |
-|-------|-----------------|---------|-----------|
-| PCB   |  24.0 x 27.9 mm | 1.1 in² |    0.8 mm |
+| Property      | Value                          |
+|---------------|--------------------------------|
+| PCB size      | 24.0 x 27.9 x 0.8 mm (1.1 in²) |
+| Voltage (in)  | 5 V ±10%                       |
+| Current (in)  | 500 mA (max)                   |
+| Voltage (out) | 5 V ±15%                       |
+| Current (out) | 425 mA (min)                   |
 
 
 #### FTDI Configuration
@@ -35,13 +42,3 @@
 | CBUS2   | TXDEN  |
 | CBUS3   | PWREN# |
 | CBUS4   | SLEEP# |
-
-
-#### Power
-
-|                 | Minimum | Typical | Maximum |
-|-----------------|--------:|--------:|--------:|
-| Input voltage:  |         |   5.0 V |         |
-| Output voltage: |         |   5.0 V |         |
-| Input current:  |  510 mA |         |         |
-| Output current: |  500 mA |  700 mA |  900 mA |
