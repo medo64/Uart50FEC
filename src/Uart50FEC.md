@@ -16,7 +16,7 @@
 |  3 | R 1K 0.125W (0805)                                | R1-R3   | RMCF0805FT1K00CT-ND         |
 |  1 | R 5.1K 0.125W (0805)                              | R4      | RMCF0805FT5K10CT-ND         |
 |  1 | R 10K 0.125W (0805)                               | R5      | RMCF0805FT10K0CT-ND         |
-|  1 | R 68K 0.125W (0805)                               | R6      | RMCF0805FT68K0CT-ND         |
+|  1 | R 75K 0.125W (0805)                               | R6      | RMCF0805FT75K0CT-ND         |
 |  1 | U Transciever Uart [FT232R] (SSOP-28)             | U1      | 768-FT232RNL-TUBE-ND        |
 |  1 | U LoadSwitch Adjustable [AP22652W6-7] (SOT23-6)   | U2      | 31-AP22652W6-7CT-ND         |
 |  2 | H Screw M2x3mm                                    | -       | -                           |
@@ -24,13 +24,13 @@
 
 #### Specifications
 
-| Property      | Value                          |
-|---------------|--------------------------------|
-| PCB size      | 24.0 x 27.9 x 0.8 mm (1.1 in²) |
-| Voltage (in)  | 5 V ±10%                       |
-| Current (in)  | 500 mA (max)                   |
-| Voltage (out) | 5 V ±15%                       |
-| Current (out) | 425 mA (min)                   |
+| Property        | Value                          |
+|-----------------|--------------------------------|
+| PCB size        | 24.0 x 27.9 x 0.8 mm (1.1 in²) |
+| Voltage (in)    | 5 V ±10%                       |
+| Current (in)    | 450 mA (max)                   |
+| Voltage (out)   | 5 V ±15%                       |
+| Current (limit) | 400 mA ±10%                    |
 
 
 #### FTDI Configuration

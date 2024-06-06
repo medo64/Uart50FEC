@@ -5390,7 +5390,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "68K"
+		(property "Value" "75K"
 			(at 2.25 0 0)
 			(layer "B.SilkS")
 			(uuid "d07bd68f-d93b-4b33-a4ed-9057457000ad")
